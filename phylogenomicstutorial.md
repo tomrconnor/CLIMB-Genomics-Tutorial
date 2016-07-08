@@ -6,7 +6,7 @@ The approaches used here will enable you to;
 ####Remove recombination events from the core genome alignment
 ####Use TempEst to identify if there is temporal signal in the dataset using a root to tip analysis
 ####Identify the presence of Antimicrobial Resistance genes in a set of bacterial samples
-####Identify the (E. coli) serotype of the samples being analysed
+####Identify the (_E. coli_) serotype of the samples being analysed
 ####Identify the MLST sequence type of the samples being analysed
 
 This tutorial will make use of a set of settings and pipelines that we find useful in our work. This tutorial is not an instruction manual on how to make a high impact publication, nor is it the last word in how to analyse sequence data. The tutorial makes use of a number of scripts/pipeliens that all have default settings. It is up to you to decicde if these meet your requirements based on the sort of questions you want to ask. For instance, when we are examining bacteria that are distantly related (i.e. are from across a species), we can expect that there will be large numbers of SNPs on the internal branches of the tree. We also know expect that the isolates being examined are likely to be distantly related. Therefore, when we perform our analysis we will implicitly not be controlling for false-positive SNP calls (i.e. SNP calls that aren't real, but are an artefact of our SNP filtering). Clearly, if we were interested in an outbreak, for example, then not selecting settings that control for false poisitive SNPs would have the potential to seriously affect our inference from our analyses.

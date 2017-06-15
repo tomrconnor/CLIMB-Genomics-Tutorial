@@ -83,10 +83,11 @@ This will then download all the files you need.
 
 To run Nullarbor you have to provide a file containing details for the isolates you want to process. This file should be tab delimited and should look something like this;
 
-`Sample1	8403_7_6_1.fastq.gz	8403_7_6_2.fastq.gz
-Sample2	8403_7_7_1.fastq.gz	8403_7_7_2.fastq.gz
-Sample3	8403_7_19_1.fastq.gz	8403_7_19_2.fastq.gz
-Sample4	8403_7_22_1.fastq.gz	8403_7_22_2.fastq.gz`
+`Sample1	8403_7_6_1.fastq.gz	8403_7_6_2.fastq.gz`
+`Sample2	8403_7_7_1.fastq.gz	8403_7_7_2.fastq.gz`
+`Sample3	8403_7_19_1.fastq.gz	8403_7_19_2.fastq.gz`
+`Sample4	8403_7_22_1.fastq.gz	8403_7_22_2.fastq.gz`
+
 
 Depending on the sort of VM you are using, there are two options. Nullarbor will test for the number of CPU cores available on your machine, and so smaller machines will run much more slowly. As such we have included two nullarbor files, one for analysing 7 samples, and one for analysing 16 samples.
 
